@@ -1,0 +1,137 @@
+[
+  {
+    "InventoryId": "INV001",
+    "ProductId": "PROD001",
+    "SKU": "MILK-1L",
+    "QuantityAvailable": 64,
+    "SafetyStock": 30,
+    "WarehouseId": "MAIN",
+    "LastUpdatedAt": "2026-05-09T10:00:00"
+  },
+  {
+    "InventoryId": "INV002",
+    "ProductId": "PROD001",
+    "SKU": "MILK-1L",
+    "QuantityAvailable": 28,
+    "SafetyStock": 18,
+    "WarehouseId": "NORTH",
+    "LastUpdatedAt": "2026-05-09T10:00:00"
+  },
+  {
+    "InventoryId": "INV003",
+    "ProductId": "PROD002",
+    "SKU": "YOGURT-500G",
+    "QuantityAvailable": 16,
+    "SafetyStock": 15,
+    "WarehouseId": "MAIN",
+    "LastUpdatedAt": "2026-05-09T10:00:00"
+  },
+  {
+    "InventoryId": "INV004",
+    "ProductId": "PROD003",
+    "SKU": "RICE-5KG",
+    "QuantityAvailable": 42,
+    "SafetyStock": 18,
+    "WarehouseId": "MAIN",
+    "LastUpdatedAt": "2026-05-09T10:00:00"
+  },
+  {
+    "InventoryId": "INV005",
+    "ProductId": "PROD003",
+    "SKU": "RICE-5KG",
+    "QuantityAvailable": 12,
+    "SafetyStock": 10,
+    "WarehouseId": "SOUTH",
+    "LastUpdatedAt": "2026-05-09T10:00:00"
+  },
+  {
+    "InventoryId": "INV006",
+    "ProductId": "PROD004",
+    "SKU": "ATTA-10KG",
+    "QuantityAvailable": 22,
+    "SafetyStock": 12,
+    "WarehouseId": "MAIN",
+    "LastUpdatedAt": "2026-05-09T10:00:00"
+  },
+  {
+    "InventoryId": "INV007",
+    "ProductId": "PROD005",
+    "SKU": "SOAP-100G",
+    "QuantityAvailable": 92,
+    "SafetyStock": 45,
+    "WarehouseId": "MAIN",
+    "LastUpdatedAt": "2026-05-09T10:00:00"
+  },
+  {
+    "InventoryId": "INV008",
+    "ProductId": "PROD005",
+    "SKU": "SOAP-100G",
+    "QuantityAvailable": 38,
+    "SafetyStock": 25,
+    "WarehouseId": "NORTH",
+    "LastUpdatedAt": "2026-05-09T10:00:00"
+  },
+  {
+    "InventoryId": "INV009",
+    "ProductId": "PROD006",
+    "SKU": "SHAMPOO-340ML",
+    "QuantityAvailable": 61,
+    "SafetyStock": 20,
+    "WarehouseId": "MAIN",
+    "LastUpdatedAt": "2026-05-09T10:00:00"
+  },
+  {
+    "InventoryId": "INV010",
+    "ProductId": "PROD007",
+    "SKU": "COFFEE-200G",
+    "QuantityAvailable": 8,
+    "SafetyStock": 14,
+    "WarehouseId": "MAIN",
+    "LastUpdatedAt": "2026-05-09T10:00:00"
+  },
+  {
+    "InventoryId": "INV011",
+    "ProductId": "PROD008",
+    "SKU": "TEA-GREEN-25",
+    "QuantityAvailable": 0,
+    "SafetyStock": 12,
+    "WarehouseId": "SOUTH",
+    "LastUpdatedAt": "2026-05-09T10:00:00"
+  },
+  {
+    "InventoryId": "INV012",
+    "ProductId": "PROD009",
+    "SKU": "DETERGENT-2KG",
+    "QuantityAvailable": 44,
+    "SafetyStock": 16,
+    "WarehouseId": "MAIN",
+    "LastUpdatedAt": "2026-05-09T10:00:00"
+  },
+  {
+    "InventoryId": "INV013",
+    "ProductId": "PROD010",
+    "SKU": "DISHWASH-750ML",
+    "QuantityAvailable": 29,
+    "SafetyStock": 18,
+    "WarehouseId": "MAIN",
+    "LastUpdatedAt": "2026-05-09T10:00:00"
+  },
+  {
+    "InventoryId": "INV014",
+    "ProductId": "PROD011",
+    "SKU": "COOKIES-300G",
+    "QuantityAvailable": 81,
+    "SafetyStock": 25,
+    "WarehouseId": "MAIN",
+    "LastUpdatedAt": "2026-05-09T10:00:00"
+  },
+  {
+    "InventoryId": "INV015",
+    "ProductId": "PROD012",
+    "SKU": "CHIPS-150G",
+    "QuantityAvailable": 53,
+    "SafetyStock": 30,
+    "WarehouseId": "MAIN",
+    "LastUpdatedAt": "2026-05-09T10:00:00"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "CompanyName": "RetailOps",
+  "Currency": "INR",
+  "TaxRate": 0.05,
+  "DefaultWarehouseId": "MAIN",
+  "LowStockAlertWindowDays": 7,
+  "ForecastHorizonDays": 21,
+  "ThemeDensity": "Comfortable",
+  "RequireManagerApproval": true
+}

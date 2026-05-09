@@ -1,0 +1,29 @@
+[
+  {
+    "WarehouseId": "MAIN",
+    "Name": "Central Retail DC",
+    "City": "Ahmedabad",
+    "Type": "Distribution Center",
+    "CapacityUnits": 18000,
+    "Manager": "Neha Desai",
+    "IsActive": true
+  },
+  {
+    "WarehouseId": "NORTH",
+    "Name": "North Cluster Store",
+    "City": "Gandhinagar",
+    "Type": "Store Backroom",
+    "CapacityUnits": 6000,
+    "Manager": "Dev Mehta",
+    "IsActive": true
+  },
+  {
+    "WarehouseId": "SOUTH",
+    "Name": "South Express Hub",
+    "City": "Vadodara",
+    "Type": "Fulfillment Hub",
+    "CapacityUnits": 7500,
+    "Manager": "Asha Menon",
+    "IsActive": true
+  }
+]

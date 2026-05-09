@@ -1,0 +1,26 @@
+[
+  {
+    "ReplenishmentId": "REP001",
+    "SKU": "COFFEE-200G",
+    "ProductId": "PROD007",
+    "WarehouseId": "MAIN",
+    "SuggestedQuantity": 38,
+    "ApprovedQuantity": 38,
+    "Status": "Approved",
+    "CreatedAt": "2026-05-09T12:30:00",
+    "CreatedBy": "inventory",
+    "SupplierId": "SUP004"
+  },
+  {
+    "ReplenishmentId": "REP002",
+    "SKU": "TEA-GREEN-25",
+    "ProductId": "PROD008",
+    "WarehouseId": "SOUTH",
+    "SuggestedQuantity": 52,
+    "ApprovedQuantity": 0,
+    "Status": "Pending",
+    "CreatedAt": "2026-05-09T13:05:00",
+    "CreatedBy": "manager",
+    "SupplierId": "SUP004"
+  }
+]

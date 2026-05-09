@@ -1,0 +1,122 @@
+[
+  {
+    "ForecastId": "FC001",
+    "ProductId": "PROD001",
+    "SKU": "MILK-1L",
+    "WeeklyDemand": [118, 126, 122, 131, 138, 142],
+    "SeasonalityIndex": 1.08,
+    "PromoLift": 1.12,
+    "HorizonDays": 14,
+    "Confidence": 92
+  },
+  {
+    "ForecastId": "FC002",
+    "ProductId": "PROD002",
+    "SKU": "YOGURT-500G",
+    "WeeklyDemand": [50, 54, 59, 57, 63, 67],
+    "SeasonalityIndex": 1.05,
+    "PromoLift": 1.10,
+    "HorizonDays": 14,
+    "Confidence": 88
+  },
+  {
+    "ForecastId": "FC003",
+    "ProductId": "PROD003",
+    "SKU": "RICE-5KG",
+    "WeeklyDemand": [30, 34, 32, 38, 41, 44],
+    "SeasonalityIndex": 1.02,
+    "PromoLift": 1.06,
+    "HorizonDays": 21,
+    "Confidence": 84
+  },
+  {
+    "ForecastId": "FC004",
+    "ProductId": "PROD004",
+    "SKU": "ATTA-10KG",
+    "WeeklyDemand": [24, 26, 28, 27, 31, 29],
+    "SeasonalityIndex": 1.00,
+    "PromoLift": 1.00,
+    "HorizonDays": 21,
+    "Confidence": 82
+  },
+  {
+    "ForecastId": "FC005",
+    "ProductId": "PROD005",
+    "SKU": "SOAP-100G",
+    "WeeklyDemand": [170, 178, 166, 181, 190, 202],
+    "SeasonalityIndex": 1.00,
+    "PromoLift": 1.18,
+    "HorizonDays": 14,
+    "Confidence": 91
+  },
+  {
+    "ForecastId": "FC006",
+    "ProductId": "PROD006",
+    "SKU": "SHAMPOO-340ML",
+    "WeeklyDemand": [58, 55, 61, 64, 62, 69],
+    "SeasonalityIndex": 1.03,
+    "PromoLift": 1.00,
+    "HorizonDays": 21,
+    "Confidence": 80
+  },
+  {
+    "ForecastId": "FC007",
+    "ProductId": "PROD007",
+    "SKU": "COFFEE-200G",
+    "WeeklyDemand": [36, 40, 39, 42, 47, 49],
+    "SeasonalityIndex": 1.06,
+    "PromoLift": 1.00,
+    "HorizonDays": 21,
+    "Confidence": 86
+  },
+  {
+    "ForecastId": "FC008",
+    "ProductId": "PROD008",
+    "SKU": "TEA-GREEN-25",
+    "WeeklyDemand": [30, 34, 37, 35, 38, 42],
+    "SeasonalityIndex": 1.04,
+    "PromoLift": 1.00,
+    "HorizonDays": 21,
+    "Confidence": 83
+  },
+  {
+    "ForecastId": "FC009",
+    "ProductId": "PROD009",
+    "SKU": "DETERGENT-2KG",
+    "WeeklyDemand": [32, 35, 33, 36, 39, 41],
+    "SeasonalityIndex": 1.00,
+    "PromoLift": 1.00,
+    "HorizonDays": 28,
+    "Confidence": 81
+  },
+  {
+    "ForecastId": "FC010",
+    "ProductId": "PROD010",
+    "SKU": "DISHWASH-750ML",
+    "WeeklyDemand": [48, 51, 55, 52, 57, 60],
+    "SeasonalityIndex": 1.01,
+    "PromoLift": 1.00,
+    "HorizonDays": 21,
+    "Confidence": 85
+  },
+  {
+    "ForecastId": "FC011",
+    "ProductId": "PROD011",
+    "SKU": "COOKIES-300G",
+    "WeeklyDemand": [78, 86, 88, 94, 99, 104],
+    "SeasonalityIndex": 1.03,
+    "PromoLift": 1.14,
+    "HorizonDays": 14,
+    "Confidence": 89
+  },
+  {
+    "ForecastId": "FC012",
+    "ProductId": "PROD012",
+    "SKU": "CHIPS-150G",
+    "WeeklyDemand": [98, 105, 111, 115, 121, 128],
+    "SeasonalityIndex": 1.02,
+    "PromoLift": 1.15,
+    "HorizonDays": 14,
+    "Confidence": 90
+  }
+]
