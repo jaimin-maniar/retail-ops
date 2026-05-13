@@ -4,6 +4,16 @@ RetailOps is a browser-only Vanilla JavaScript demo app. It uses plain HTML, CSS
 
 There is no framework, bundler, TypeScript, npm install, or backend.
 
+## Page Flow
+
+| Page | Purpose |
+| --- | --- |
+| index.html | Public landing page |
+| landing.html | Same landing page kept as a named training file |
+| signup.html | Creates frontend-only localStorage users |
+| login.html | Logs in with email, password, Store ID, and dummy OTP |
+| dashboard.html | Loads the existing RetailOps app after login |
+
 ## JavaScript File Guide
 
 Script order in index.html matters because every file adds one clear part to the shared app object.
@@ -11,6 +21,9 @@ Script order in index.html matters because every file adds one clear part to the
 | File | What moved there | Why it is easier to explain |
 | --- | --- | --- |
 | app.js | Creates the shared app object | The app starts with one simple global object |
+| landing.js | Landing page session button behavior | Logged-in users can jump back to the dashboard |
+| login.js | Login page form handling | Reads fields, validates through auth.js, then opens dashboard.html |
+| signup.js | Signup page form handling | Reads fields, creates a local account, then sends user to login.html |
 | helpers.js | Small shared helpers | General helpers are no longer mixed with screens |
 | validation.js | Business validation checks | Form rules can be explained separately |
 | format.js | Currency, number, percent, and date formatting | Display formatting has one obvious place |
@@ -39,3 +52,13 @@ Script order in index.html matters because every file adds one clear part to the
 | dashboard.js | Alerts and Dashboard page | Summary screen logic is separated from features |
 | logs.js | Activity log page | Audit table display is separate from audit writes |
 | main.js | Startup loading and page registration | Startup flow is now the final small file |
+
+## Demo Auth Notes
+
+This is a frontend-only training flow. Users are saved in localStorage under
+retailops.authUsers. The active session is saved as loggedInUser. The OTP is
+always 0000.
+
+Store data is saved per store using keys like retailops.web.STORE1001.products.
+Each saved collection is wrapped with its storeId, so STORE1001 and STORE2001
+can change their data independently.

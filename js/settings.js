@@ -33,7 +33,7 @@ app.pages = app.pages || {};
         return {
           Collection: name,
           Records: Array.isArray(value) ? value.length : 1,
-          StorageKey: `${app.setup.storagePrefix}.${name}`
+          StorageKey: `${app.setup.storagePrefix}.${app.data.getStoreId()}.${name}`
         };
       });
 
@@ -55,6 +55,7 @@ app.pages = app.pages || {};
               <p class="section-copy">Changes are saved in browser localStorage. Reset reloads the bundled sample data.</p>
               <div class="summary-list" style="margin-top:16px">
                 <div class="summary-row"><span>Persistence</span><strong>localStorage</strong></div>
+                <div class="summary-row"><span>Current store</span><strong>${app.help.escapeHtml(app.data.getStoreId())}</strong></div>
                 <div class="summary-row"><span>Sample data</span><strong>js/data.js</strong></div>
                 <div class="summary-row"><span>Runtime</span><strong>Browser only</strong></div>
               </div>

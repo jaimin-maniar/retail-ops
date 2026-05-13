@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Signup | RetailOps</title>
+    <link rel="stylesheet" href="css/auth.css">
+  </head>
+  <body>
+    <main class="auth-page">
+      <section class="auth-side">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">R</span>
+          <span>RetailOps</span>
+        </a>
+        <h1>Create a store account.</h1>
+        <p>
+          Signup saves the account in localStorage. The OTP is fake for this
+          frontend demo and must be <strong>0000</strong>.
+        </p>
+        <div class="demo-box">
+          <strong>Password needs</strong>
+          <span>8 characters minimum</span>
+          <span>Uppercase, lowercase, number</span>
+          <span>One special character</span>
+        </div>
+      </section>
+
+      <section class="auth-card">
+        <div class="mobile-brand">
+          <span class="brand-mark">R</span>
+          <span>RetailOps</span>
+        </div>
+        <h2>Signup</h2>
+        <p class="muted">Each account belongs to one Store ID.</p>
+
+        <form id="signupForm" class="auth-form">
+          <label>
+            Full Name
+            <input id="fullName" type="text" autocomplete="name" required>
+          </label>
+          <label>
+            Email
+            <input id="email" type="email" autocomplete="email" required>
+          </label>
+          <label>
+            Password
+            <input id="password" type="password" autocomplete="new-password" required>
+          </label>
+          <label>
+            Confirm Password
+            <input id="confirmPassword" type="password" autocomplete="new-password" required>
+          </label>
+          <label>
+            Store ID
+            <input id="storeId" type="text" placeholder="STORE1001" required>
+          </label>
+          <label>
+            OTP
+            <input id="otp" type="text" inputmode="numeric" placeholder="0000" required>
+          </label>
+          <p id="message" class="message" aria-live="polite"></p>
+          <button class="btn btn-dark" type="submit">Create account</button>
+        </form>
+
+        <p class="switch-link">
+          Already have an account?
+          <a href="login.html">Login</a>
+        </p>
+      </section>
+    </main>
+
+    <script src="js/auth.js"></script>
+    <script src="js/signup.js"></script>
+  </body>
+</html>

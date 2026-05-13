@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login | RetailOps</title>
+    <link rel="stylesheet" href="css/auth.css">
+  </head>
+  <body>
+    <main class="auth-page">
+      <section class="auth-side">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">R</span>
+          <span>RetailOps</span>
+        </a>
+        <h1>Login to your store workspace.</h1>
+        <p>
+          Enter the same Store ID used for your account. The demo OTP is
+          <strong>0000</strong>.
+        </p>
+        <div class="demo-box">
+          <strong>Sample login</strong>
+          <span>Email: admin@store1001.com</span>
+          <span>Password: Admin@123</span>
+          <span>Store ID: STORE1001</span>
+        </div>
+      </section>
+
+      <section class="auth-card">
+        <div class="mobile-brand">
+          <span class="brand-mark">R</span>
+          <span>RetailOps</span>
+        </div>
+        <h2>Login</h2>
+        <p class="muted">Frontend-only authentication for training.</p>
+
+        <form id="loginForm" class="auth-form">
+          <label>
+            Email
+            <input id="email" type="email" autocomplete="email" required>
+          </label>
+          <label>
+            Password
+            <input id="password" type="password" autocomplete="current-password" required>
+          </label>
+          <label>
+            Store ID
+            <input id="storeId" type="text" placeholder="STORE1001" required>
+          </label>
+          <label>
+            OTP
+            <input id="otp" type="text" inputmode="numeric" placeholder="0000" required>
+          </label>
+          <p id="message" class="message" aria-live="polite"></p>
+          <button class="btn btn-dark" type="submit">Login</button>
+        </form>
+
+        <p class="switch-link">
+          New user?
+          <a href="signup.html">Create an account</a>
+        </p>
+      </section>
+    </main>
+
+    <script src="js/auth.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>
