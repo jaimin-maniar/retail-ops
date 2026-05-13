@@ -4,17 +4,24 @@
   const form = document.getElementById("loginForm");
   const message = document.getElementById("message");
 
-  if (window.RetailOpsAuth.getLoggedInUser()) {
-    window.location.href = "dashboard.html";
-  }
-
   function showMessage(text, success) {
     message.textContent = text;
     message.className = success ? "message success" : "message";
   }
 
+  if (!window.RetailOpsAuth) {
+    showMessage("Authentication file did not load. Please refresh the page.", false);
+  } else if (window.RetailOpsAuth.getLoggedInUser()) {
+    window.location.href = "dashboard.html";
+  }
+
   form.addEventListener("submit", (event) => {
     event.preventDefault();
+
+    if (!window.RetailOpsAuth) {
+      showMessage("Authentication file did not load. Please refresh the page.", false);
+      return;
+    }
 
     try {
       const user = window.RetailOpsAuth.login(
